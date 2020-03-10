@@ -7,9 +7,22 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
-
+.button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.but{
+  position:relative;
+  margin:3% 45%;
+}
 body {
   background-color: #2A1A1F;
 }

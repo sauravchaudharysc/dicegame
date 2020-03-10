@@ -1,3 +1,5 @@
+function myFunction()
+{
 var randomNumber1=Math.floor(Math.random()*6)+1; //1-6
 var randomDiceImage="dice"+randomNumber1+".png"; //dice1.png or dice_.png
 var randomImageSource1="images/"+randomDiceImage; //images/dice1.png
@@ -18,4 +20,5 @@ else if( randomNumber1 < randomNumber2 )
 else
 {
   document.querySelector("h1").innerHTML="Draw";
+}
 }
